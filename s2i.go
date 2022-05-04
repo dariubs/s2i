@@ -39,3 +39,12 @@ func ParseDuration(strnum string, defaultnum interface{}) time.Duration {
 	t := time.Duration(uint(Parse(strnum, defaultnum)))
 	return t
 }
+
+// ParseFloat : string to float
+func ParseFloat(strnum string, defaultnum interface{}) float64 {
+	num, err := strconv.ParseFloat(strnum, 32)
+	if err != nil {
+		return float64(defaultnum.(float64))
+	}
+	return num
+}
