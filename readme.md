@@ -1,3 +1,3 @@
 # s2i
 
-String to int.
+Golang package for parse string to (int, duration, float)
