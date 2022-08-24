@@ -1,3 +1,11 @@
 # s2i
 
-Golang package for parse string to (int, duration, float)
+Golang string to `int`, `float` and `bool` with default value
+
+
+License
+-------
+
+Distributed under MIT license
+
+By [Dariush](https://github.com/dariubs)
